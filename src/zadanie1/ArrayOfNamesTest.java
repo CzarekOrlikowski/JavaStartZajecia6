@@ -8,9 +8,8 @@ public class ArrayOfNamesTest {
         Scanner scan = new Scanner(System.in);
         System.out.print("Podaj ilość imion: ");
         int numberOfNames = scan.nextInt();
-        String [] tableOfNames = new String[numberOfNames];
         ArrayOfNames test = new ArrayOfNames();
-        tableOfNames = test.addNames(numberOfNames);
+        String[] tableOfNames = test.addNames(numberOfNames);
         test.printNames(tableOfNames);
     }
 }
